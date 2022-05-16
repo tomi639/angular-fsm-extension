@@ -12,7 +12,7 @@ export class FsmExtensionComponent implements OnInit {
   
   constructor() { }
 
-  async ngOnInit(): Promise<void> { /*
+  async ngOnInit(): Promise<void> { 
     let UIContextList = '';
 
     if (this.connector.isInsideShell()) {
@@ -26,7 +26,7 @@ export class FsmExtensionComponent implements OnInit {
       }
       UIContextList = UIContextList + '</ul>'; 
     }
-    this.updateUI(UIContextList); */
+    this.updateUI(UIContextList); 
     this.updateUI('hejho');
   }
 
